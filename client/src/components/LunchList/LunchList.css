@@ -1,5 +1,7 @@
 .lunch-list-wrapper {
     width: 80%;
+    max-width: 1200px;
+    min-width: 500px;
     height: 500px;
     padding: 16px 16px 16px 16px;
     overflow-x: hidden;

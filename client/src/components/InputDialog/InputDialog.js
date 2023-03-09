@@ -10,16 +10,21 @@ function InputDialog() {
   }
 
   function onSubmit(event) {
-    socket.emit("submit", {
-      name: menuName,
-    });
+    if(menuName.length > 0) {
+      socket.emit("submit", {
+        name: menuName,
+      });
+      setMenuName("");
+    } else {
+      alert(`"아무거나"는 좀 그래요...`);
+    }
   }
 
   return (
     <div className="input-dialog-wrapper box-wrapper">
-      <input type={"text"} className="input-lunch" onChange={onChange} />
+      <input type={"text"} className="input-lunch" onChange={onChange} value={menuName} />
       <button className="submit-btn" onClick={onSubmit}>
-        제출
+        이거 먹자
       </button>
     </div>
   );
