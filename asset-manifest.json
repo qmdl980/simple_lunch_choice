@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simple-lunch-choice/static/css/main.53e3dd6a.css",
+    "main.js": "/simple-lunch-choice/static/js/main.dcbe5257.js",
+    "static/js/787.2d47e74a.chunk.js": "/simple-lunch-choice/static/js/787.2d47e74a.chunk.js",
+    "index.html": "/simple-lunch-choice/index.html",
+    "main.53e3dd6a.css.map": "/simple-lunch-choice/static/css/main.53e3dd6a.css.map",
+    "main.dcbe5257.js.map": "/simple-lunch-choice/static/js/main.dcbe5257.js.map",
+    "787.2d47e74a.chunk.js.map": "/simple-lunch-choice/static/js/787.2d47e74a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53e3dd6a.css",
+    "static/js/main.dcbe5257.js"
+  ]
+}
