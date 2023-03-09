@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.box-wrapper {
+  border: 1.5px solid #BDBDBD;
+  border-radius: 12px;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,18 @@
+.lunch-list-wrapper {
+    width: 80%;
+    height: 500px;
+    padding: 16px 16px 16px 16px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.lunch-list-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 8px;
+}
