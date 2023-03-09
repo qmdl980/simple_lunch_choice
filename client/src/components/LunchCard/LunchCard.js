@@ -1,12 +1,12 @@
 import "./LunchCard.css";
 
-function LunchCard() {
-    return(
-        <div className="lunch-card box-wrapper">
-            <p className="menu-title prevent-overflow">menu</p>
-            <p className="menu-people prevent-overflow">몇 명</p>
-        </div>
-    )
+function LunchCard(props) {
+  return (
+    <div className="lunch-card box-wrapper">
+      <p className="menu-title prevent-overflow">{props.menu.name}</p>
+      <p className="menu-people prevent-overflow">{props.menu.people}</p>
+    </div>
+  );
 }
 
-export default LunchCard
+export default LunchCard;
