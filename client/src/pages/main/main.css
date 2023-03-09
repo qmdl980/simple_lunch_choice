@@ -5,12 +5,13 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin: 20px 0;
+  height: 100%;
+  padding: 20px 0;
 }
 
 .lunch-list-title {
   position: absolute;
-  top: 70px;
+  top: 90px;
   width: fit-content;
   padding: 5px 60px;
   border-radius: 50px;
