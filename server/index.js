@@ -21,11 +21,11 @@ server.on("connect", (socket) => {
 
   socket.emit("newMenu", lunchList);
 
-  socket.on("submit", (menu) => {
+  socket.on("submit", (data) => {
     lunchList.push({
       id: lunchList.length + 1,
-      name: menu.name,
-      people: 1,
+      name: data.name,
+      people: [data.user],
     });
 
     sockets.forEach((socket) => {
@@ -33,10 +33,10 @@ server.on("connect", (socket) => {
     });
   });
 
-  socket.on("clickMenu", (menu) => {
+  socket.on("clickMenu", (data) => {
     for (let i = 0; i < lunchList.length; i++) {
-      if (lunchList[i].id === menu.id) {
-        lunchList[i].people += 1;
+      if (lunchList[i].id === data.id) {
+        lunchList[i].people.push(data.user);
         break;
       }
     }

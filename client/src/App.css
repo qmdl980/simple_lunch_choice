@@ -12,18 +12,9 @@ body {
   border: 1.5px solid #BDBDBD;
   border-radius: 12px;
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
+  background-color: #fafafa;
 }
 
-.main-title-wrapper {
-  width: 80%;
-  max-width: 1200px;
-  min-width: 500px;
-  padding: 5px 0 8px 0;
-  text-align: center;
-}
-
-.main-title {
-  font-size: 33px;
-  font-weight: 700;
-  color: #567F72;
+input {
+  background-color: transparent;
 }

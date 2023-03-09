@@ -1,8 +1,51 @@
 .main-page-wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-top: 20px;
+  margin: 20px 0;
+}
+
+.lunch-list-title {
+  position: absolute;
+  top: 70px;
+  width: fit-content;
+  padding: 5px 60px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #567F72;
+  color: white;
+  z-index: 2;
+}
+
+.main-title-wrapper {
+  width: fit-content;
+  padding: 5px 32px 8px 32px;
+  border-radius: 50px;
+  text-align: center;
+}
+  
+.main-title {
+  font-size: 33px;
+  font-weight: 700;
+  color: #567F72;
+}
+
+.input-user {
+  width: 100%;
+}
+
+.input-user-wrapper {
+  width: 80%;
+  max-width: 1200px;
+  min-width: 500px;
+}
+
+.input-user-wrapper-wd40 {
+  width: 30%;
+  min-width: 270px;
+  padding: 20px 22px;
 }
